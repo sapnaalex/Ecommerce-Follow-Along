@@ -5,15 +5,13 @@ import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
 import ValidationFormObject from "../../validation";
 
-
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
   const [avatar, setAvatar] = useState(null);
-  const [errors, setErrors] = useState({});
-
+  const [errors, setErrors] = useState({}); 
 
   const handleFileSubmit = (e) => {
     const file = e.target.files[0];
@@ -24,39 +22,32 @@ const Signup = () => {
     }
   };
 
-
   const validateFields = () => {
     const nameError = ValidationFormObject.validteName(name);
     const emailError = ValidationFormObject.validteEmail(email);
     const passwordError = ValidationFormObject.validtePass(password);
-
 
     const newErrors = {};
     if (nameError !== true) newErrors.name = nameError;
     if (emailError !== true) newErrors.email = emailError;
     if (passwordError !== true) newErrors.password = passwordError;
 
-
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0; // Return true if no errors
   };
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
-
 
     if (!validateFields()) {
       return; // Stop submission if validation fails
     }
-
 
     const newForm = new FormData();
     newForm.append("file", avatar);
     newForm.append("name", name);
     newForm.append("email", email);
     newForm.append("password", password);
-
 
     const config = {
       headers: {
@@ -66,8 +57,6 @@ const Signup = () => {
     };
 
 
-
-
 //axios request
     axios.post("http://localhost:8000/api/v2/user/create-user", newForm, config).then((res)=>{
       console.log(res.data);
@@ -75,7 +64,6 @@ const Signup = () => {
       console.log(err);
     })
 };
-
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
@@ -111,7 +99,6 @@ const Signup = () => {
               </div>
             </div>
 
-
             <div>
               <label
                 htmlFor="email"
@@ -135,7 +122,6 @@ const Signup = () => {
                 )}
               </div>
             </div>
-
 
             <div>
               <label
@@ -174,7 +160,6 @@ const Signup = () => {
               </div>
             </div>
 
-
             <div>
               <label
                 htmlFor="avatar"
@@ -209,7 +194,6 @@ const Signup = () => {
               </div>
             </div>
 
-
             <div>
               <button
                 type="submit"
@@ -218,7 +202,6 @@ const Signup = () => {
                 Submit
               </button>
             </div>
-
 
             <div className="flex items-center w-full">
               <h4>Already have an account?</h4>
@@ -232,6 +215,5 @@ const Signup = () => {
     </div>
   );
 };
-
 
 export default Signup;
