@@ -81,3 +81,31 @@ In **Milestone 3**, we advanced our e-commerce application by establishing a sol
    - Updated the repository’s **README file** with a new section titled *Milestone 3: Project Setup for Backend*, summarizing the progress made in this milestone.
 
 Finally, all changes were committed and pushed to the GitHub repository, ensuring the application is ready for further enhancements in the upcoming milestones. 🎯
+
+
+
+
+
+### **Summary for Milestone 4: User Model, Controllers, and File Uploads 🚀**
+
+In Milestone 4, we expanded the backend functionality of our e-commerce application by focusing on user data management and file upload capabilities. Here's an overview of what was achieved:
+
+---
+
+#### **User Model Creation**
+- Designed and implemented a **User Model** using MongoDB schemas to define how user data (e.g., name, email, password) is structured and stored in the database.
+
+#### **User Controller Setup**
+- Developed a **User Controller** to handle user-related operations such as adding new users and retrieving user information.
+- Ensured efficient management of user data through clear and functional controller logic.
+
+#### **File Uploads with Multer**
+- Integrated **Multer**, a Node.js middleware, to enable the application to handle file uploads (e.g., user profile pictures).
+- Configured Multer to store and manage uploaded files efficiently on the server.
+
+#### **Documentation**
+- Updated the repository’s README file with a new section titled **Milestone 4: User Model, Controllers, and File Uploads**, summarizing the progress made in this milestone.
+
+---
+
+Finally, all changes were committed and pushed to the GitHub repository, setting a strong foundation for more advanced features in future milestones. 🎯
