@@ -11,6 +11,53 @@ Overview of the MERN Stack The MERN stack is a popular technology stack for full
 MongoDB – NoSQL database for storing application data. Express.js – Backend framework for handling server logic. React.js – Frontend library for building dynamic user interfaces. Node.js – JavaScript runtime for executing server-side code. This stack allows developers to use a single language, JavaScript, throughout the entire application, making development more efficient and beginner-friendly.
 
 
+### **Milestone 2: Project Creation and Login Interface Design**
+
+In this milestone, I achieved the set objectives to advance in the development of the E-Commerce Application:
+
+---
+
+#### **1. Project Folder Structure**
+
+- Split the project into a ***frontend*** and a ***backend*** to improve organization and structure. 
+
+#### **2. React Frontend Setup**
+
+- Set up the user interface with a React frontend.
+
+- Set up the required packages for React.
+
+#### **3. Node.js Backend Setup**
+
+- Created a simple Node.js application to initiate the server for the application.
+
+- Set the server up for API integration in the future.
+
+#### **4. Tailwind CSS Integration**
+
+- Set up **Tailwind CSS** to provide utility first responsive styles throughout the application. 
+
+#### **5. Login Page Development**
+
+- Designed the first user interface element, a fully functional **Login Page**.
+
+- Designed the Login Page with Tailwind CSS for a responsive and polished user interface
+
+- Implemented simple features to manage user input.
+
+---
+
+### **Results**
+
+Everything is in order; the project is organized, and development can continue. 
+
+Login Page. The fully functional styled skeleton of the UI has been done.
+
+The outstanding milestone serves as a foundation for adding more functionality in future 3 phases of the project.
+
+
+
+
 
 ### Summary for Milestone 3: Project Setup for Backend 🚀
 
