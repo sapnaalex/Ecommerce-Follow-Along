@@ -109,3 +109,30 @@ In Milestone 4, we expanded the backend functionality of our e-commerce applicat
 ---
 
 Finally, all changes were committed and pushed to the GitHub repository, setting a strong foundation for more advanced features in future milestones. 🎯
+
+
+
+
+
+### **Summary for Milestone 5: Frontend Sign-Up Page and Form Validation 🚀**
+
+In Milestone 5, we focused on enhancing the frontend of our e-commerce application by implementing a user-friendly Sign-Up Page and ensuring data integrity through form validation. Here's an overview of what was achieved:
+
+---
+
+#### **Sign-Up Page Creation**
+- Designed and developed a **Sign-Up Page** using HTML and CSS, enabling users to register by providing their details.
+- Included essential fields such as **Name**, **Email**, and **Password** to facilitate account creation.
+
+#### **Form Validation**
+- Implemented **form validation** to ensure that user inputs are correct and secure before submission:
+  - Verified that the email is in the correct format.
+  - Ensured that the password meets specified criteria, such as a minimum length.
+- Enhanced the user experience by providing real-time feedback for invalid inputs.
+
+#### **Documentation**
+- Updated the repository’s README file with a new section titled **Milestone 5: Frontend Sign-Up Page and Form Validation**, summarizing the progress made in this milestone.
+
+---
+
+Finally, all changes were committed and pushed to the GitHub repository, preparing the frontend for integration with the backend in upcoming milestones. 🎯
