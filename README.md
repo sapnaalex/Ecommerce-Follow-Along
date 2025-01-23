@@ -163,3 +163,37 @@ In Milestone 6, we focused on securing user data by creating a backend endpoint 
 ---
 
 Finally, all changes were committed and pushed to the GitHub repository, preparing the application for further enhancements in the upcoming milestones. 🎯
+
+
+
+
+
+
+
+
+
+### **Summary for Milestone 7: Backend Endpoint for User Login 🚀**
+
+In Milestone 7, we focused on implementing a backend endpoint for user login, validating user credentials, and verifying encrypted passwords. Here's an overview of what was achieved:
+
+---
+
+#### **Login Endpoint**
+- Created a backend endpoint to accept user credentials (email/username and password) during login.
+- Implemented logic to fetch the corresponding user record from the database using the provided email/username.
+- Handled scenarios where the user does not exist by returning an appropriate error message: *"User does not exist."*
+
+#### **Password Validation**
+- Used **bcrypt** to hash the user's entered password.
+- Compared the hashed input password with the stored hashed password in the database.
+- Successfully authenticated users when the passwords matched, and returned an error when they did not.
+
+#### **Secure Authentication**
+- Ensured that user passwords were never decrypted but rather compared using hash verification, maintaining a high level of security.
+
+#### **Documentation**
+- Updated the repository’s README file with a new section titled **Milestone 7: Backend Endpoint for User Login**, summarizing the progress made in this milestone.
+
+---
+
+Finally, all changes were committed and pushed to the GitHub repository, ensuring the application is ready for advanced features in future milestones. 🎯
