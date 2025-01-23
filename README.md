@@ -136,3 +136,30 @@ In Milestone 5, we focused on enhancing the frontend of our e-commerce applicati
 ---
 
 Finally, all changes were committed and pushed to the GitHub repository, preparing the frontend for integration with the backend in upcoming milestones. 🎯
+
+
+
+
+
+
+
+### **Summary for Milestone 6: Backend Endpoint for Sign-Up and Password Encryption 🚀**
+
+In Milestone 6, we focused on securing user data by creating a backend endpoint for the Sign-Up page and implementing password encryption. Here's an overview of what was achieved:
+
+---
+
+#### **Password Encryption**
+- Integrated **bcrypt** to hash user passwords before storing them in the database.
+- Ensured that the password is stored in a secure, encrypted format, protecting user data even if the database is compromised.
+
+#### **Storing Complete User Data**
+- Developed a backend endpoint to store **user details** (such as name, email, etc.) securely in the database.
+- Ensured the password is never stored in plain text, enhancing data privacy and compliance with security standards.
+
+#### **Documentation**
+- Updated the repository’s README file with a new section titled **Milestone 6: Backend Endpoint for Sign-Up and Password Encryption**, summarizing the progress made in this milestone.
+
+---
+
+Finally, all changes were committed and pushed to the GitHub repository, preparing the application for further enhancements in the upcoming milestones. 🎯
