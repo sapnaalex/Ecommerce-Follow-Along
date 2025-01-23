@@ -197,3 +197,35 @@ In Milestone 7, we focused on implementing a backend endpoint for user login, va
 ---
 
 Finally, all changes were committed and pushed to the GitHub repository, ensuring the application is ready for advanced features in future milestones. 🎯
+
+
+
+
+
+
+
+### **Summary for Milestone 8: Frontend Product Card Component and Homepage Design 🚀**
+
+In Milestone 8, we focused on creating a dynamic product card component and designing a homepage to display these cards. Here's an overview of what was achieved:
+
+---
+
+#### **Card Component**
+- Designed a reusable card component to display product details such as name, image, and price.
+- Implemented props in the card component to pass unique product information dynamically.
+
+#### **Homepage Layout**
+- Created a homepage layout to showcase the product cards in an organized manner.
+- Utilized **grid layout** or **flexbox** for a clean and structured arrangement of multiple cards.
+- Ensured a consistent and visually appealing design for all products displayed on the homepage.
+
+#### **Dynamic Rendering**
+- Leveraged array mapping to dynamically render a card for each product in the list.
+- Ensured uniformity in the card design while maintaining flexibility for dynamic data.
+
+#### **Documentation**
+- Updated the repository’s README file with a new section titled **Milestone 8: Frontend Product Card Component and Homepage Design**, summarizing the progress made in this milestone.
+
+---
+
+Finally, all changes were committed and pushed to the GitHub repository, preparing the application for further enhancements like filtering and sorting in upcoming milestones. 🎯
