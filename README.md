@@ -228,4 +228,4 @@ In Milestone 8, we focused on creating a dynamic product card component and desi
 
 ---
 
-Finally, all changes were committed and pushed to the GitHub repository, preparing the application for further enhancements like filtering and sorting in upcoming milestones. 🎯
+Finally, all changes were committed and pushed to the GitHub repository, preparing the application for further enhancements like filtering and sorting in upcoming milestones. 🎯  
