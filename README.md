@@ -262,3 +262,46 @@ In Milestone 9, we focused on creating a frontend form to input product details,
 ---  
 
 With this milestone completed, the project is now set up for further enhancements, such as **filtering and sorting product cards**, which will be tackled in the next milestone. 🚀  
+
+
+
+
+
+
+
+### **Summary for Milestone 10: Backend Product Schema and API Endpoint 🛠️**  
+
+In Milestone 10, we focused on building the backend foundation for managing product details by creating a Mongoose schema and an API endpoint to store the product data in MongoDB. Here’s an overview of the progress:  
+
+---  
+
+#### **Product Schema with Mongoose**  
+- Defined the structure of product data, including essential fields like `name`, `description`, `price`, and `image URL`.  
+- Incorporated validation rules to ensure data integrity, such as:  
+  - Marking fields like `name` and `price` as required.  
+  - Setting correct data types (e.g., `String` for names and `Number` for price).  
+
+#### **API Endpoint Creation**  
+- Built a `POST` endpoint to receive product data from the frontend form.  
+- Added validation logic to ensure only valid product details are accepted before saving to the database.  
+- Successfully integrated the endpoint with MongoDB to store product details seamlessly.  
+
+#### **Why Validation Matters**  
+- Ensured database integrity by validating input fields before saving data.  
+- Prevented common errors like incomplete or incorrectly formatted data submissions.  
+
+#### **Enhancements & Future Scope**  
+- Suggested advanced features for the future, such as:  
+  - Implementing **admin access** to restrict product uploads to authorized users.  
+  - Creating **shop profiles** so that only registered shop owners can upload products.  
+
+#### **Documentation & Submission**  
+- Updated the repository’s README file with a new section titled **Milestone 10: Backend Product Schema and API Endpoint**, summarizing the milestone progress.  
+- Committed and pushed all code changes to GitHub, ensuring the repository is publicly accessible for submission.  
+
+---  
+
+With this milestone complete, the project backend is now ready for further improvements. In the next milestone, we’ll focus on enhancing **product cards with features like filtering and sorting**. Let’s keep building! 🚀  
+
+
+
