@@ -229,3 +229,36 @@ In Milestone 8, we focused on creating a dynamic product card component and desi
 ---
 
 Finally, all changes were committed and pushed to the GitHub repository, preparing the application for further enhancements like filtering and sorting in upcoming milestones. 🎯  
+
+
+
+
+
+
+
+### **Summary for Milestone 9: Frontend Product Input Form 🚀**  
+
+In Milestone 9, we focused on creating a frontend form to input product details, including multiple images, ensuring seamless data collection for product listings. Here’s an overview of the progress made:  
+
+---  
+
+#### **Product Input Form**  
+- Designed a structured form to capture essential product details such as name, description, price, and images.  
+- Implemented form fields to accept multiple images as input using the `<input type="file" multiple>` attribute.  
+- Ensured a user-friendly and responsive design for optimal usability.  
+
+#### **Data Handling & Validation**  
+- Configured form validation to ensure required fields are filled before submission.  
+- Used `enctype="multipart/form-data"` to handle image uploads properly.  
+
+#### **Enhancements & Future Scope**  
+- Suggested improvements like implementing **admin access** to restrict product uploads to authorized users.  
+- Explored the possibility of creating **shop profiles**, allowing only registered shop owners to upload products.  
+
+#### **Documentation & Submission**  
+- Updated the repository’s README file with a new section titled **Milestone 9: Frontend Product Input Form**, summarizing the milestone progress.  
+- Committed and pushed all changes to GitHub, ensuring the repository is publicly accessible for submission.  
+
+---  
+
+With this milestone completed, the project is now set up for further enhancements, such as **filtering and sorting product cards**, which will be tackled in the next milestone. 🚀  
