@@ -353,3 +353,45 @@ In Milestone 11, we focused on making the home page dynamic by fetching and disp
 With this milestone, our home page is now fully dynamic, fetching real-time data from the backend. In the next milestone, we’ll enhance **search and filter functionalities** for a better shopping experience. Let’s keep building! 🚀  
 
 
+
+
+
+
+
+
+### **Summary for Milestone 12: My Products Page with User-Specific Filtering 🚀**  
+
+In Milestone 12, we focused on building the **My Products** page, which dynamically displays only the products added by the logged-in user. This required filtering product data based on the user's email and integrating it into the frontend. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Filtered API Endpoint 🛠️**  
+- Developed a `GET` endpoint to fetch only those products where the `email` field matches the logged-in user’s email.  
+- Used **Mongoose query filtering** to retrieve user-specific data from MongoDB.  
+- Implemented proper error handling to manage API failures and invalid requests.  
+
+#### **Fetching and Displaying Data on the Frontend 🌐**  
+- Created a function to **fetch user-specific products** by passing the logged-in user's email as a parameter.  
+- Integrated the fetched data with the **Product Card** component for dynamic rendering.  
+- Ensured the UI updates in real-time whenever new products are added.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **data filtering techniques** using backend queries.  
+- Enhanced **user personalization** by displaying only their own added products.  
+- Strengthened knowledge of **API calls, dynamic rendering, and state management**.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **user authentication system** to automatically fetch the logged-in user's email.  
+- Add **editing and deleting functionalities** so users can manage their own products.  
+- Introduce **sorting options** to display products based on price, date added, etc.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 12: User-Specific Product Filtering**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now view only their added products, making the platform more personalized. In the next milestone, we’ll focus on **implementing user authentication and improving user experience**. Let’s keep building! 🚀  
+
+
