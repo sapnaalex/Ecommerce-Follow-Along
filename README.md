@@ -395,3 +395,40 @@ In Milestone 12, we focused on building the **My Products** page, which dynamica
 With this milestone, users can now view only their added products, making the platform more personalized. In the next milestone, we’ll focus on **implementing user authentication and improving user experience**. Let’s keep building! 🚀  
 
 
+
+
+
+### **Summary for Milestone 13: Editing Uploaded Products ✏️**  
+
+In Milestone 13, we focused on implementing the **Edit Product** functionality, allowing users to update their previously uploaded products. This required modifying both the frontend and backend to support product updates. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Update API Endpoint 🔄**  
+- Developed a `PUT` endpoint to update an existing product’s details in **MongoDB**.  
+- Used **Mongoose’s update methods** to modify the product data while preserving its unique ID.  
+- Ensured **proper request validation and error handling** to prevent invalid updates.  
+
+#### **Implementing the Edit Feature in the Frontend 🖥️**  
+- Added an **Edit button** to each product card, enabling users to modify product details.  
+- Designed a form that **auto-fills** with the existing product data when the edit button is clicked.  
+- Integrated the update API, allowing users to modify and save changes seamlessly.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **update operations in MongoDB**, a crucial database skill.  
+- Enhanced **user control** by allowing modifications to existing products.  
+- Strengthened understanding of **form handling, API integration, and state updates**.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement **real-time updates** on the UI after editing a product.  
+- Add **confirmation dialogs** before updating to prevent accidental modifications.  
+- Extend functionality with **image updates** for product listings.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 13: Editing Uploaded Products**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now modify their product details effortlessly, making the platform more user-friendly. 🚀  
