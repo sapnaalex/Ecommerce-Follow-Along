@@ -432,3 +432,45 @@ In Milestone 13, we focused on implementing the **Edit Product** functionality, 
 ---  
 
 With this milestone, users can now modify their product details effortlessly, making the platform more user-friendly. 🚀  
+
+
+
+
+
+
+
+
+### **Summary for Milestone 14: Deleting Products 🗑️**  
+
+In Milestone 14, we focused on implementing the **Delete Product** functionality, allowing users to remove unwanted products from their listings. This involved both backend and frontend modifications to support product deletion. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Delete API Endpoint 🛠️**  
+- Developed a `DELETE` endpoint to remove a product from **MongoDB** using its unique ID.  
+- Used **Mongoose’s delete method** to ensure the correct product is removed.  
+- Implemented **error handling** to manage cases where the product ID is invalid or missing.  
+
+#### **Implementing the Delete Feature in the Frontend 🖥️**  
+- Added a **Delete button** to each product card, allowing users to remove specific products.  
+- Configured the frontend to **send the product ID** to the backend when the button is clicked.  
+- Ensured the UI updates in real-time, instantly reflecting the deletion.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **delete operations in MongoDB**, a crucial skill in database management.  
+- Improved **user control** by allowing them to manage their product listings effectively.  
+- Strengthened knowledge of **frontend-backend communication and API integration**.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **confirmation popup** before deleting a product to prevent accidental removal.  
+- Optimize database queries for **efficient deletion** and error handling.  
+- Extend functionality with **bulk delete options** for better user experience.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 14: Deleting Products**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **remove products seamlessly**, making the platform more user-friendly. 🚀  
