@@ -474,3 +474,49 @@ In Milestone 14, we focused on implementing the **Delete Product** functionality
 ---  
 
 With this milestone, users can now **remove products seamlessly**, making the platform more user-friendly. 🚀  
+
+
+
+
+
+
+
+
+
+### **Summary for Milestone 15: Creating the Navbar 🏗️**  
+
+In Milestone 15, we focused on designing and implementing a **Navbar component** that provides seamless navigation across multiple pages. This milestone helped in understanding how to create reusable components and improve the user experience with smooth transitions. Below is a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Navbar Component 🖥️**  
+- Developed a new **`Nav` component** containing links to:  
+  - **Home** 🏠  
+  - **My Products** 📦  
+  - **Add Product** ➕  
+  - **Cart** 🛒  
+- Integrated **React Router** to enable smooth navigation without page reloads.  
+- Ensured **active page highlighting** for better user experience.  
+
+#### **Adding the Navbar to All Pages 🔗**  
+- Integrated the `Nav` component across all pages for **consistent navigation**.  
+- Verified smooth page transitions using **React Router’s `Link` component**.  
+
+#### **Why This Milestone is Important 🔥**  
+- Strengthened **component reusability** by using a single `Nav` across multiple pages.  
+- Improved **user experience** with structured and responsive navigation.  
+- Gained hands-on experience in **React Router and UI design** for better application development.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Add **dropdown menus** for better organization of links.  
+- Implement **user authentication-based navigation** to customize visible menu items.  
+- Enhance styling with **animations and hover effects** for a modern look.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with details on **Milestone 15: Creating the Navbar**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, our application now has **structured and user-friendly navigation**, enhancing the overall usability of the platform. 🚀
