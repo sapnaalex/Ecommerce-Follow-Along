@@ -520,3 +520,47 @@ In Milestone 15, we focused on designing and implementing a **Navbar component**
 ---  
 
 With this milestone, our application now has **structured and user-friendly navigation**, enhancing the overall usability of the platform. 🚀
+
+
+
+
+
+
+
+
+
+### **Summary for Milestone 16: Creating the Product Info Page 🛍️**  
+
+In Milestone 16, we focused on designing and implementing a **Product Info Page** that displays detailed product data, allows users to select quantities, and provides an option to add items to the cart. This milestone helped in improving user interaction and deepening our understanding of dynamic page creation in React. Below is a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Product Info Page 🛒**  
+- Developed a new **`ProductInfo` page** that displays:  
+  - Product **name, image, price, and description** 🏷️  
+  - **Quantity selector** to let users choose the desired amount 🔢  
+  - **"Add to Cart" button** for seamless shopping experience ➕  
+- Fetched product data dynamically based on the **selected product ID**.  
+
+#### **Integrating the Page with Navigation 🔗**  
+- Linked the `ProductInfo` page to individual products via **React Router**.  
+- Ensured users can navigate back to the main product listing easily.  
+
+#### **Why This Milestone is Important 🔥**  
+- Enhanced **user experience** by allowing product selection and customization.  
+- Improved **React skills** by dynamically rendering product details.  
+- Strengthened understanding of **state management** for handling quantities.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **persistent cart system** to save selected products.  
+- Add a **real-time price calculation** based on the selected quantity.  
+- Improve UI with **better styling and animations** for a modern feel.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with details on **Milestone 16: Creating the Product Info Page**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, our application now provides **a detailed and interactive product viewing experience**, making shopping more engaging for users. 🚀
