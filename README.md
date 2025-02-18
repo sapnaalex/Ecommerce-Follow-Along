@@ -605,3 +605,43 @@ In Milestone 17, we focused on implementing the **Add to Cart** functionality, a
 ---  
 
 With this milestone, users can now **add products to their cart effortlessly**, enhancing the overall shopping experience. 🚀
+
+
+
+
+
+
+
+
+
+
+
+### **Summary for Milestone 18: Fetching Cart Products 🛒📦**  
+
+In Milestone 18, we focused on implementing the **Fetch Cart Products** functionality, enabling users to view all the products stored in their cart. This involved creating a backend endpoint to retrieve cart items based on the user’s email. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Fetch Cart API Endpoint 🛠️**  
+- Developed a `GET` endpoint to retrieve all products stored in a user's cart.  
+- Used **Mongoose’s find method** to fetch the cart details associated with the user’s email.  
+- Implemented **error handling** to manage cases where the cart is empty or the user is not found.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **cart retrieval functionality**, an essential feature for e-commerce platforms.  
+- Strengthened knowledge of **querying MongoDB**, particularly fetching nested user data.  
+- Improved **user experience** by allowing them to view their cart contents dynamically.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **frontend integration** to display cart items in real-time.  
+- Add functionality to **update item quantity** directly from the cart page.  
+- Optimize database queries for **faster cart retrieval** and performance.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 18: Fetching Cart Products**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **view all products in their cart effortlessly**, making the shopping experience smoother and more interactive. 🚀
