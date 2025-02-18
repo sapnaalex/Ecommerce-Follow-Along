@@ -564,3 +564,44 @@ In Milestone 16, we focused on designing and implementing a **Product Info Page*
 ---  
 
 With this milestone, our application now provides **a detailed and interactive product viewing experience**, making shopping more engaging for users. 🚀
+
+
+
+
+
+
+
+
+### **Summary for Milestone 17: Adding Products to Cart 🛒**  
+
+In Milestone 17, we focused on implementing the **Add to Cart** functionality, allowing users to store selected products in their cart. This involved modifying the backend to support cart storage and ensuring seamless data persistence in the database. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Updating the User Schema 🏗️**  
+- Modified the **User schema** to include a `cart` field that stores products added by the user.  
+- Used **Mongoose schema updates** to define the structure for storing cart items.  
+
+#### **Creating the Add to Cart API Endpoint 🛠️**  
+- Developed a `POST` endpoint to receive product details and add them to the user’s cart.  
+- Used **Mongoose’s update method** to push new products into the cart array.  
+- Implemented **error handling** to manage cases where product details are missing or invalid.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **cart functionality**, a crucial feature for any e-commerce platform.  
+- Strengthened knowledge of **MongoDB operations**, particularly updating nested fields.  
+- Improved **user experience** by allowing them to save products for later purchase.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement an **endpoint to retrieve cart items** for better user interaction.  
+- Add functionality to **remove items from the cart** when needed.  
+- Optimize database queries for **efficient cart management**.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 17: Adding Products to Cart**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **add products to their cart effortlessly**, enhancing the overall shopping experience. 🚀
