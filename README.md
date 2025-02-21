@@ -645,3 +645,48 @@ In Milestone 18, we focused on implementing the **Fetch Cart Products** function
 ---  
 
 With this milestone, users can now **view all products in their cart effortlessly**, making the shopping experience smoother and more interactive. 🚀
+
+
+
+
+
+
+
+
+### **Summary for Milestone 19: Cart Page UI & Quantity Update 🛒🔄**  
+
+In Milestone 19, we focused on enhancing the **cart page functionality** by creating a frontend UI to display cart products and implementing quantity adjustment features. This involved integrating the previously built API from Milestone 18 and developing new endpoints to modify product quantities. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Building the Cart Page UI 🖥️**  
+- Designed a **cart page** to display all products retrieved using the Fetch Cart API.  
+- Implemented **a dynamic UI** that updates in real-time based on the cart contents.  
+
+#### **Adding Quantity Adjustment Feature ➕➖**  
+- Added **‘+’ and ‘-’ buttons** for each product to increase or decrease quantity.  
+- Ensured quantity cannot go below **1** to prevent invalid cart states.  
+
+#### **Creating the Quantity Update API Endpoint 🛠️**  
+- Developed a `PUT` endpoint to update product quantity in the cart.  
+- Used **Mongoose’s update method** to modify the quantity for a specific product.  
+- Implemented **error handling** to prevent invalid updates or negative values.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **dynamic cart management**, making the shopping experience smoother.  
+- Strengthened knowledge of **frontend-backend integration** for real-time updates.  
+- Improved **user control** over their cart, allowing easy quantity adjustments.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **remove product feature** for unwanted cart items.  
+- Optimize database operations for **efficient cart updates**.  
+- Enhance UI with **real-time feedback** (e.g., loading indicators, success messages).  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 19: Cart Page UI & Quantity Update**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **view their cart and modify product quantities effortlessly**, making shopping more interactive and user-friendly. 🚀
