@@ -733,4 +733,4 @@ In Milestone 20, we focused on implementing the **Profile Page**, allowing users
 
 ---  
 
-With this milestone, users can now **view their profile information and manage addresses easily**, enhancing the personalization of the platform. 🚀
+With this milestone, users can now **view their profile information and manage addresses easily**, enhancing the personalization of the platform. 🚀  
