@@ -690,3 +690,47 @@ In Milestone 19, we focused on enhancing the **cart page functionality** by crea
 ---  
 
 With this milestone, users can now **view their cart and modify product quantities effortlessly**, making shopping more interactive and user-friendly. 🚀
+
+
+
+
+
+
+
+
+### **Summary for Milestone 20: Profile Page UI & User Data Endpoint 🧑‍💼📄**  
+
+In Milestone 20, we focused on implementing the **Profile Page**, allowing users to view their personal details, including profile photo, name, email, and addresses. This involved creating a backend endpoint to fetch user data and developing a frontend UI to display it. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the User Data API Endpoint 🛠️**  
+- Developed a `GET` endpoint to retrieve user details using their email.  
+- Used **Mongoose’s find method** to fetch and send profile information.  
+- Implemented **error handling** to manage cases where user data is missing.  
+
+#### **Building the Profile Page UI 🖥️**  
+- Designed a **profile page** to display user details dynamically.  
+- Divided the page into two sections:  
+  - **Personal Information**: Displays **profile photo, name, and email**.  
+  - **Address Section**: Lists **saved addresses** and includes an **"Add Address"** button.  
+- Displayed **"No address found"** if the user has not added any addresses.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **user profile management**, a key feature in personalized applications.  
+- Strengthened knowledge of **frontend-backend integration for user data handling**.  
+- Improved **user experience** by allowing them to view and manage their personal information.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **profile update feature** to allow users to edit their details.  
+- Add functionality for **adding, updating, and deleting addresses**.  
+- Improve UI with **loading states and error messages** for better user interaction.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 20: Profile Page UI & User Data Endpoint**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **view their profile information and manage addresses easily**, enhancing the personalization of the platform. 🚀
