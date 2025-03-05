@@ -870,3 +870,41 @@ In Milestone 23, we focused on enhancing the checkout process by adding a **Plac
 
 With this milestone, users can now **proceed with orders and select their delivery address**, making the shopping experience smoother. In the next milestone, we’ll focus on **storing and managing order details effectively**. Let’s keep building! 🚀  
 
+
+
+
+
+
+
+
+### **Summary for Milestone 24: Order Confirmation Page 🛒✅**  
+
+In Milestone 24, we focused on enhancing the checkout experience by implementing an **Order Confirmation Page** that displays the order details before finalizing the purchase. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Frontend: Building the Order Confirmation Page 🖥️**  
+- Created an **Order Confirmation Page** to provide users with a summary of their order.  
+- Displayed **all products** included in the order with relevant details.  
+- Showed the **selected delivery address** to confirm where the order will be shipped.  
+- Calculated and displayed the **total cart value** for transparency.  
+- Added a **"Place Order"** button at the bottom to finalize the purchase.  
+
+#### **Why This Milestone is Important 🔥**  
+- Provides users with a **final review** before confirming their order.  
+- Ensures a **smooth and structured checkout process**.  
+- Strengthens knowledge of **frontend UI/UX for e-commerce workflows**.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement **backend functionality** to store confirmed orders in the database.  
+- Add an **order success page** with a unique order ID and estimated delivery date.  
+- Enable **order history tracking** in the user profile.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 24: Order Confirmation Page**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **review their order details before confirming**, improving the overall shopping experience. In the next step, we’ll focus on **storing order details and tracking orders**. Let’s keep building! 🚀  
