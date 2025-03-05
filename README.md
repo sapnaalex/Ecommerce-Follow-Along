@@ -734,3 +734,97 @@ In Milestone 20, we focused on implementing the **Profile Page**, allowing users
 ---  
 
 With this milestone, users can now **view their profile information and manage addresses easily**, enhancing the personalization of the platform. 🚀  
+
+
+
+
+
+
+
+
+### **Summary for Milestone 21: Address Input Form 🏡📋**  
+
+In Milestone 21, we focused on implementing the **Address Input Form**, allowing users to enter and store their address details. This involved creating a frontend form to collect user inputs and ensuring smooth navigation from the profile page. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Building the Address Input Form UI 🖥️**  
+- Designed a **form page** to collect address details, including:  
+  - **Country**  
+  - **City**  
+  - **Address Line 1 & Address Line 2**  
+  - **ZIP Code**  
+  - **Address Type (e.g., Home, Work, Other)**  
+- Used a **state variable** to store and manage user inputs dynamically.  
+
+#### **Implementing Navigation from Profile Page 🔄**  
+- Ensured clicking **"Add Address"** on the profile page navigates to the **address input form**.  
+- Maintained **a smooth user flow** between profile and address management sections.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **user address management**, a key feature for personalized services.  
+- Strengthened knowledge of **handling form inputs and managing state in the frontend**.  
+- Improved **user experience** by providing a structured and easy way to add addresses.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement functionality to **store the entered address in the database**.  
+- Add **form validation** to ensure all required fields are filled correctly.  
+- Enhance UI with **real-time error messages** and user-friendly design improvements.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 21: Address Input Form**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **easily input and manage their addresses**, enhancing the platform’s personalization and usability. 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### **Summary for Milestone 22: Storing User Addresses 📍**  
+
+In Milestone 22, we focused on implementing a feature that allows users to **save their addresses** inside their profile. This required creating a backend endpoint to store the address data in the database. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Address Storage API Endpoint 🛠️**  
+- Developed a `POST` endpoint to receive and store the **user's address** inside the user collection in **MongoDB**.  
+- Implemented **Mongoose schema updates** to maintain an **address array** within the user profile.  
+- Ensured **proper request validation and error handling** to prevent invalid data submissions.  
+
+#### **Integrating the Address Feature in the Frontend 🌐**  
+- Designed an **Address Form** to collect user address details.  
+- Configured the frontend to **send the address data** to the backend for storage.  
+- Ensured **real-time updates** so the user can see their saved addresses immediately.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **storing structured user data** in MongoDB.  
+- Improved **user profile management** by allowing users to save multiple addresses.  
+- Strengthened knowledge of **API creation, database integration, and request handling**.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement an **edit and delete option** for saved addresses.  
+- Add **address validation** (e.g., pin codes, city names) to ensure accurate data entry.  
+- Extend functionality with **default address selection** for better user experience.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 22: Storing User Addresses**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **store addresses in their profile**, enhancing the personalization of the platform. In the next milestone, we’ll focus on **managing saved addresses and improving user interaction**. Let’s keep building! 🚀  
