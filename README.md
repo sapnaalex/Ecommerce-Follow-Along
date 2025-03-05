@@ -908,3 +908,47 @@ In Milestone 24, we focused on enhancing the checkout experience by implementing
 ---  
 
 With this milestone, users can now **review their order details before confirming**, improving the overall shopping experience. In the next step, we’ll focus on **storing order details and tracking orders**. Let’s keep building! 🚀  
+
+
+
+
+
+
+
+
+
+
+
+### **Summary for Milestone 25: Backend Endpoint for Placing Orders 🛒📦**  
+
+In Milestone 25, we focused on **developing the backend logic** for placing an order, ensuring that order details are properly stored in the database. Here’s a breakdown of our progress:  
+
+---  
+
+#### **Backend: Creating the Place Order API 🛠️**  
+- Built a **backend endpoint** to handle order placement requests.  
+- The API receives **product details, user information, and the selected address** from the frontend.  
+- Retrieved the **user’s ID** from MongoDB using their email.  
+- Created **separate order entries** for each product while maintaining the same delivery address.  
+- Stored **order details** in the **MongoDB orders collection** using the previously created order schema.  
+
+#### **Why This Milestone is Important 🔥**  
+- Establishes a **functional order processing system**.  
+- Strengthens knowledge of **handling API requests and storing structured data** in MongoDB.  
+- Lays the foundation for **order tracking and management** in future updates.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement **order confirmation emails** to notify users after order placement.  
+- Add an **order history page** where users can track their past purchases.  
+- Introduce **payment gateway integration** to complete transactions.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 25: Placing Orders via Backend API**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, we’ve successfully **connected the frontend checkout process to the backend**, enabling users to place orders seamlessly. Next, we’ll work on **order tracking and enhancing the user experience**. Let’s keep building! 🚀  
+
+
