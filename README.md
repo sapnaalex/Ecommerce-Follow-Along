@@ -952,3 +952,42 @@ In Milestone 25, we focused on **developing the backend logic** for placing an o
 With this milestone, we’ve successfully **connected the frontend checkout process to the backend**, enabling users to place orders seamlessly. Next, we’ll work on **order tracking and enhancing the user experience**. Let’s keep building! 🚀  
 
 
+
+
+
+
+
+
+### **Summary for Milestone 26: Order Retrieval API 🛒📦**  
+
+In Milestone 26, we focused on implementing a **backend endpoint** to fetch all orders placed by a user. This involved retrieving user details using their email and fetching associated order records. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the Order Retrieval API Endpoint 🛠️**  
+- Developed a `GET` endpoint to **fetch all orders** for a specific user.  
+- Implemented logic to:  
+  - Receive the **user’s email** as input.  
+  - Retrieve the **user’s ID (_id)** from the database using the email.  
+  - Use the retrieved **_id** to fetch all associated **orders**.  
+  - Return the **order list** in the response.  
+- Ensured **error handling** for scenarios like invalid email or no orders found.  
+
+#### **Why This Milestone is Important 🔥**  
+- Introduced **order management** features, essential for e-commerce platforms.  
+- Strengthened backend development skills, particularly in **data retrieval using MongoDB**.  
+- Improved **database query efficiency** by linking user and order collections.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **frontend order history page** to display fetched orders.  
+- Optimize queries for **faster order retrieval**.  
+- Extend functionality to **filter orders by status (e.g., Pending, Shipped, Delivered)**.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 26: Order Retrieval API**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **view all their past orders effortlessly**, improving order tracking and management. 🚀
