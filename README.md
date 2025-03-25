@@ -991,3 +991,49 @@ In Milestone 26, we focused on implementing a **backend endpoint** to fetch all 
 ---  
 
 With this milestone, users can now **view all their past orders effortlessly**, improving order tracking and management. 🚀
+
+
+
+
+
+
+
+
+### **Summary for Milestone 27: My Orders Page 🛍️📋**  
+
+In Milestone 27, we focused on developing a **frontend page** that displays all orders placed by a user. This involved retrieving order data using the backend API created in the previous milestone and presenting it in an organized manner. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Creating the My Orders Page UI 🎨**  
+- Developed a **dedicated My Orders page** to list all user orders.  
+- Integrated **a GET request** to the `/my-orders` endpoint to fetch order details.  
+- Sent the **user’s email** as a parameter to retrieve relevant orders.  
+
+#### **Displaying Orders on the UI 🖥️**  
+- Designed a clean and structured **order list view**.  
+- Displayed order details such as **order ID, product names, quantity, price, and status**.  
+- Ensured **responsive design** for better user experience across devices.  
+
+#### **Enhancing Navigation 🧭**  
+- Added a **My Orders** tab to the **navbar** for easy access.  
+- Ensured smooth navigation between pages within the app.  
+
+#### **Why This Milestone is Important 🔥**  
+- Improved **user experience** by enabling order tracking.  
+- Strengthened frontend-backend **API integration skills**.  
+- Enhanced **database querying and state management** for efficient data handling.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement **order filtering** based on status (e.g., Pending, Shipped, Delivered).  
+- Improve UI with **order tracking progress bars or delivery estimates**.  
+- Add a **search or sort feature** for better order management.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 27: My Orders Page**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users can now **view and track their past orders easily**, enhancing order management and user engagement. 🚀
