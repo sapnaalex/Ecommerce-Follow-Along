@@ -1037,3 +1037,48 @@ In Milestone 27, we focused on developing a **frontend page** that displays all 
 ---  
 
 With this milestone, users can now **view and track their past orders easily**, enhancing order management and user engagement. 🚀
+
+
+
+
+
+
+
+### **Summary for Milestone 28: Cancel Order Functionality ❌🛒**  
+
+In Milestone 28, we implemented the **Cancel Order** feature, allowing users to cancel their placed orders directly from the **My Orders** page. This required both **frontend and backend** modifications to handle order cancellations efficiently. Here’s a detailed breakdown of our progress:  
+
+---  
+
+#### **Adding the Cancel Order Button 🖥️**  
+- Integrated a **Cancel Order** button for each active order in the **My Orders** page.  
+- Ensured the button is **only visible for non-canceled orders** to prevent redundant actions.  
+- Designed a **user-friendly UI** to provide clear cancellation options.  
+
+#### **Creating the Cancel Order API Endpoint 🛠️**  
+- Developed a **PUT** endpoint to handle order cancellations.  
+- The endpoint receives the **order ID** and updates the order status to **"Canceled"** in the database.  
+- Implemented **error handling** for invalid or already canceled orders.  
+
+#### **Enhancing User Experience 🧑‍💻**  
+- Updated the **order list dynamically** after cancellation to reflect changes instantly.  
+- Added **status indicators** to clearly differentiate active and canceled orders.  
+
+#### **Why This Milestone is Important 🔥**  
+- Strengthened **backend operations** by introducing order status updates.  
+- Enhanced **user control** by enabling cancellations.  
+- Improved frontend-backend **communication and API integration**.  
+
+#### **Enhancements & Next Steps 🚀**  
+- Implement a **confirmation popup** before canceling an order.  
+- Allow users to **provide a reason** for order cancellation.  
+- Optimize database queries for better **performance and error handling**.  
+
+#### **Documentation & Submission 📥**  
+- Updated the repository’s **README file** with a section on **Milestone 28: Cancel Order Functionality**.  
+- Committed and pushed all changes to GitHub, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+---  
+
+With this milestone, users now have the ability to **cancel their orders seamlessly**, improving overall order management and user satisfaction. 🚀
