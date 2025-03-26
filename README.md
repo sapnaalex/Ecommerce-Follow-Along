@@ -1082,3 +1082,46 @@ In Milestone 28, we implemented the **Cancel Order** feature, allowing users to 
 ---  
 
 With this milestone, users now have the ability to **cancel their orders seamlessly**, improving overall order management and user satisfaction. 🚀
+
+
+
+
+
+
+### **Summary for Milestone 29: Integrating PayPal Payment Gateway 💳🚀**  
+
+In **Milestone 29**, we began integrating **online payment functionality** into our application using the **PayPal API**. This milestone focused on setting up **sandbox accounts** and designing the **order confirmation page** to support multiple payment options.  
+
+---  
+
+### **Key Implementations 🔑**  
+
+#### **1️⃣ Setting Up PayPal Sandbox Account 🏦**  
+- Created a **PayPal Developer Account**.  
+- Set up a **sandbox account** for testing transactions.  
+- Retrieved and stored the **UserID** and **Client ID** for future API integration.  
+
+#### **2️⃣ Enhancing the Order Confirmation Page 📄**  
+- Introduced **two payment options**:  
+  ✅ **Cash on Delivery (COD)**  
+  ✅ **Online Payment via PayPal**  
+- Implemented **radio buttons** to allow users to select their preferred payment method.  
+- Ensured that **PayPal payment buttons** only appear when the **Online Payment** option is selected.  
+
+#### **3️⃣ Preparing for PayPal Button Integration 🔄**  
+- Structured the UI for **seamless PayPal integration** in the next milestone.  
+- Ensured the **frontend is responsive** and ready for API communication.  
+
+---  
+
+### **Why This Milestone is Important? 🤔**  
+- Introduces **online transactions** to enhance user convenience.  
+- Builds a foundation for integrating **secure and reliable payment gateways**.  
+- Improves **order management** by offering multiple payment methods.  
+
+### **Documentation & Submission 📥**  
+- Updated the **README file** with details about **Milestone 29: Integrating PayPal Payment Gateway**.  
+- Pushed the **latest code to GitHub** and ensured it is publicly accessible.  
+- Submitted the repository link as per the assignment guidelines.  
+
+With this milestone, we are moving one step closer to **enabling smooth online transactions**, making our application more dynamic and user-friendly! 🚀💰
