@@ -1094,7 +1094,7 @@ In **Milestone 29**, we began integrating **online payment functionality** into 
 
 ---  
 
-### **Key Implementations 🔑**  
+#### **Key Implementations 🔑**  
 
 #### **1️⃣ Setting Up PayPal Sandbox Account 🏦**  
 - Created a **PayPal Developer Account**.  
@@ -1114,14 +1114,64 @@ In **Milestone 29**, we began integrating **online payment functionality** into 
 
 ---  
 
-### **Why This Milestone is Important? 🤔**  
+#### **Why This Milestone is Important? 🤔**  
 - Introduces **online transactions** to enhance user convenience.  
 - Builds a foundation for integrating **secure and reliable payment gateways**.  
 - Improves **order management** by offering multiple payment methods.  
 
-### **Documentation & Submission 📥**  
+#### **Documentation & Submission 📥**  
 - Updated the **README file** with details about **Milestone 29: Integrating PayPal Payment Gateway**.  
 - Pushed the **latest code to GitHub** and ensured it is publicly accessible.  
 - Submitted the repository link as per the assignment guidelines.  
 
 With this milestone, we are moving one step closer to **enabling smooth online transactions**, making our application more dynamic and user-friendly! 🚀💰
+
+
+
+
+
+
+
+### **Summary for Milestone 30: Implementing PayPal Payment Gateway 💳🚀**  
+
+In **Milestone 30**, we took the next step in **integrating online payments** using the **PayPal API**. Building on **Milestone 29**, where we set up a PayPal developer account, this milestone focused on **implementing the payment flow** in our React application.  
+
+---  
+
+#### **Key Implementations 🔑**  
+
+#### **1️⃣ Setting Up PayPal in React 🛠️**  
+- Installed the **react-paypal-js** package using NPM.  
+- Used **PayPalScriptProvider** to initialize PayPal in the application.  
+- Integrated the **PayPal Client Key** obtained from the sandbox account.  
+
+#### **2️⃣ Implementing Online Payments 💰**  
+- Added the **PayPal Buttons Component** to handle transactions.  
+- Ensured users can choose between **COD (Cash on Delivery) or PayPal Online Payment**.  
+- Configured **credit/debit card options** via PayPal.  
+
+#### **3️⃣ Handling Payment Flow ✅**  
+- Managed **successful payments** by updating the order status.  
+- Implemented error handling for **failed or canceled transactions**.  
+- Tested transactions using **PayPal sandbox accounts**.  
+
+---  
+
+#### **Why This Milestone is Important? 🤔**  
+- Enables **secure online payments**, improving user experience.  
+- Introduces **real-world payment integration** using an industry-standard API.  
+- Prepares the system for **live transactions** when moved from sandbox to production.  
+
+#### **Next Steps 🚀**  
+- Refine the UI/UX of the **payment process**.  
+- Move from **sandbox mode** to **live transactions** when ready.  
+- Store **transaction details** in the database for future reference.  
+
+---  
+
+#### **Documentation & Submission 📥**  
+- Updated the **README file** with details on **Milestone 30: Implementing PayPal Payment Gateway**.  
+- Pushed the **latest code to GitHub**, ensuring public accessibility.  
+- Submitted the repository link as per the assignment guidelines.  
+
+With this milestone, we have successfully **integrated PayPal payments** into our application, making it **ready for real-world transactions**! 🚀💳
