@@ -1188,7 +1188,7 @@ In this milestone, I successfully implemented **Redux** to handle **global state
 
 ---
 
-### 🔧 What I Did:
+#### 🔧 What I Did:
 
 #### 📦 Redux Setup:
 - Installed `react-redux` via NPM.
@@ -1206,19 +1206,19 @@ In this milestone, I successfully implemented **Redux** to handle **global state
 
 ---
 
-### 📚 What I Learned:
+#### 📚 What I Learned:
 - How to set up Redux in a React project.
 - How to configure a global store and reducer.
 - How to prepare the application for managing shared state across multiple pages.
 
 ---
 
-### 🔜 What’s Next:
+#### 🔜 What’s Next:
 - In the next milestone, I’ll learn to **dispatch the setEmail action** and **access the stored email** in any component using `useSelector`.
 
 ---
 
-### 🚀 Submission Update:
+#### 🚀 Submission Update:
 - ✅ Code pushed to my **public GitHub repository**.
 - ✅ Updated the **README** with this milestone summary.
 - ✅ Submitted the repo link in the assignment portal.
@@ -1226,3 +1226,41 @@ In this milestone, I successfully implemented **Redux** to handle **global state
 ---
 
 Redux is now ready in my app, and I’m all set for efficient global state handling! 🔥🙌
+
+
+
+
+
+
+
+
+### ✅ Milestone 32 - Global State Access Using Redux  
+**Done by Me**  
+
+---
+
+#### 🌟 What I Did:
+- Successfully implemented global state management for user email using Redux.
+- In the **Login page**, I used the `dispatch` method to store the user’s email into the global state.
+- Accessed the stored email using `useSelector` across all necessary pages (cart, profile, orders, etc.) to maintain a consistent user session.
+
+---
+
+#### 📘 What I Learned:
+- How to **dispatch actions** in Redux to update the state.
+- How to **select and use** global state data in multiple components using `useSelector`.
+- Improved understanding of **state management patterns** in large-scale React applications.
+
+---
+
+#### 📤 Submission Update:
+- Code pushed to my GitHub repository ✅  
+- Repository is public and accessible ✅  
+- README updated with a summary of Milestone 32 ✅  
+- Submitted the GitHub link in the assignment section ✅
+
+---
+
+#### 🔜 What’s Next:
+- Continue using Redux to manage other global states like cart items, order history, etc.
+- Refactor repeated props drilling with Redux for cleaner component architecture.
