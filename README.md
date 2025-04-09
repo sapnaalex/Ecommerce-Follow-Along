@@ -1175,3 +1175,54 @@ In **Milestone 30**, we took the next step in **integrating online payments** us
 - Submitted the repository link as per the assignment guidelines.  
 
 With this milestone, we have successfully **integrated PayPal payments** into our application, making it **ready for real-world transactions**! 🚀💳
+
+
+
+
+
+
+
+### ✅ Milestone 31: Redux Setup for Global State – *Done by Me* 💻🌍
+
+In this milestone, I successfully implemented **Redux** to handle **global state management** in my application. The focus was on storing and accessing the user email across components without prop drilling.
+
+---
+
+### 🔧 What I Did:
+
+#### 📦 Redux Setup:
+- Installed `react-redux` via NPM.
+- Created a `store` folder with two key files:
+  - `store.js` – Configured the Redux store and added a user reducer.
+  - `userActions.js` – Wrote an action function called `setEmail` to update the global state.
+
+#### 🌐 Global Email State:
+- Implemented a `userReducer` to manage the email state globally.
+- Created and exported the `setEmail` action to dispatch user email data.
+
+#### 🧩 Wrapped App with Provider:
+- In `index.js`, I wrapped the `<App />` component with Redux `<Provider>`.
+- Passed the configured `store` to make the global state accessible app-wide.
+
+---
+
+### 📚 What I Learned:
+- How to set up Redux in a React project.
+- How to configure a global store and reducer.
+- How to prepare the application for managing shared state across multiple pages.
+
+---
+
+### 🔜 What’s Next:
+- In the next milestone, I’ll learn to **dispatch the setEmail action** and **access the stored email** in any component using `useSelector`.
+
+---
+
+### 🚀 Submission Update:
+- ✅ Code pushed to my **public GitHub repository**.
+- ✅ Updated the **README** with this milestone summary.
+- ✅ Submitted the repo link in the assignment portal.
+
+---
+
+Redux is now ready in my app, and I’m all set for efficient global state handling! 🔥🙌
