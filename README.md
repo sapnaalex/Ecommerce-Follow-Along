@@ -1264,3 +1264,41 @@ Redux is now ready in my app, and I’m all set for efficient global state handl
 #### 🔜 What’s Next:
 - Continue using Redux to manage other global states like cart items, order history, etc.
 - Refactor repeated props drilling with Redux for cleaner component architecture.
+
+
+
+
+
+
+
+### ✅ Milestone 33 - Creating & Storing JWT in Cookies  
+**Done by Me**  
+
+---
+
+#### 🌟 What I Did:
+- Installed the `jsonwebtoken` package using NPM to start working with JWTs.
+- Used the `.sign()` method to generate a **JWT token** containing the user’s email and ID as payload.
+- Set an expiration time for the token using `maxAge`.
+- Stored the JWT token securely inside a **cookie** by attaching it to the server response, so it can be accessed from the browser.
+
+---
+
+#### 📘 What I Learned:
+- How to **generate JWT tokens** securely with payloads.
+- How to **store JWT tokens in cookies** for session persistence.
+- Basics of authentication flow using tokens and cookies in backend APIs.
+
+---
+
+#### 📤 Submission Update:
+- Code pushed to my GitHub repository ✅  
+- Repository is public and accessible ✅  
+- README updated with a summary of Milestone 33 ✅  
+- Submitted the GitHub link in the assignment section ✅
+
+---
+
+#### 🔜 What’s Next:
+- Use the stored token for **authentication and protected routes** in future milestones.
+- Implement **token verification** to ensure secure user access.
